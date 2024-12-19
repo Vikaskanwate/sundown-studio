@@ -412,10 +412,10 @@ nav .nav-part2 h4:hover a {
 }
 
 .fixed-image {
-    height: 28vw;
-    width: 24vw;
+    height: 25vw;
+    width: 22vw;
     position: fixed;
-    z-index: 99;
+    z-index: 999;
     border-radius: 2vw;
     left: 50%;
     top: 40%;
@@ -428,7 +428,7 @@ nav .nav-part2 h4:hover a {
 
 /* page 4 */
 .page4 {
-    height: 55vh;
+    height: 60vh;
     width: 100%;
     background-color: #EFEAE3;
     padding: 8vw 2vw;
@@ -471,7 +471,7 @@ nav .nav-part2 h4:hover a {
 
 
 .page5 {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     /* background-color: #8b3131; */
 }
