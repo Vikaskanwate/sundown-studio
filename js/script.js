@@ -21,6 +21,12 @@
             var image = e.getAttribute('data-image');
             fixed.style.backgroundImage = `url(${image})`;
         })
+        fixed.addEventListener('mouseenter', function () {
+            fixed.style.display = "block";
+        })
+        fixed.addEventListener('mouseleave', () => {
+            fixed.style.display = 'none';
+        })
     })
 // function swiperanimation(){
 //     console.log("eyeye")
