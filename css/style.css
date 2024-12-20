@@ -428,15 +428,75 @@ nav .nav-part2 h4:hover a {
 
 /* page 4 */
 .page4 {
-    height: 50vh;
+    min-height: 150vh;
     width: 100%;
     background-color: #EFEAE3;
-    padding: 8vw 2vw;
+    padding: 3vw 2vw;
+    position: relative;
+    overflow: hidden;
 }
-/* 
+.black-box{
+    font-weight: 100;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110vh;
+    width: 100%;
+    margin-bottom: 2vw;
+    background-color: #000000;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.page4 .black-box .black-left {
+    border-radius: 30px;
+    min-height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.page4 .black-box .black-left .sec{
+    cursor: pointer;
+    position: absolute;
+    left: 25%;
+}
+.heading {
+    font-size: 1.9rem;
+    border-left:2px solid #504a45;
+}
+.heading h1 {
+    color: #EFEAE3;
+    margin-left: 2vw;
+}
+
+.para {
+    color: #EFEAE3;
+    margin-top: 1vw;
+    width: 80%;
+}
+
+.black-right {
+    position: relative;
+    height: 100%;
+    width: 55%;
+    object-fit: cover;
+    border-radius: 30px;
+    background-position: center;
+    overflow: hidden;
+}
+/* .black-right img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    border-radius: 50px;
+} */
+
 .swiper {
     width: 100%;
-    height: 100%;
+    height: 50vh;
 }
 
 .swiper-slide {
@@ -466,7 +526,7 @@ nav .nav-part2 h4:hover a {
 .swiper-slide:nth-child(3n) {
     width: 30%;
 }
- */
+
 
 
 
