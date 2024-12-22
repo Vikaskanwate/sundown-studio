@@ -114,9 +114,6 @@ function page4(){
 }    
 
 
-
-
-
 function swiper(){
     var swiper = new Swiper(".mySwiper", {
         slidesPerView: "auto",
@@ -124,6 +121,8 @@ function swiper(){
         spaceBetween: 100,
     });
 }
+
+
 
 scroll();
 page2();

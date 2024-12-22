@@ -494,40 +494,49 @@ nav .nav-part2 h4:hover a {
     border-radius: 50px;
 } */
 
-.swiper {
-    width: 100%;
-    height: 50vh;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+.textblack {
+    padding: 5vw 2.5vw;
     display: flex;
-    justify-content: center;
     align-items: center;
+    gap: .6vw;
 }
-
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.textblack .dot {
+    height: .5vw;
+    width: .5vw;
+    border-radius: 50%;
+    background-color: #FE320A;
+}
+.textblack h1{
+    font-weight: 100;
+    font-size: 1vw;
+}
+.swiper {
+    width: 95%;
+    min-height: 34vh;
+    cursor: grab;
+    position: relative;
 }
 
 .swiper-slide {
-    width: 30%;
+    width: 20%;
+    height: 100%;
+    font-size: 15px;
+    background: #EFEAE3;
+    border-left:1px solid #a39e9783;
+    position: relative;
 }
-
-.swiper-slide:nth-child(2n) {
-    width: 30%;
+.swiper-slide img {
+    margin-left: 1.4vw;
+    height: 6.5vh;
 }
-
-.swiper-slide:nth-child(3n) {
-    width: 30%;
+.swiper-slide p {
+    margin-top: 1vw;
+    margin-left: 1.4vw;
+    color:#2a2929f4;
+    font-weight: 100;
+    font-size: .8vw;
+    width: 70%;
 }
-
-
 
 
 .page5 {
@@ -660,3 +669,5 @@ footer .footer-end {
     justify-content: space-between;
     font-weight: 100;
 }
+
+
