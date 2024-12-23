@@ -122,9 +122,25 @@ function swiper(){
     });
 }
 
+var menu =document.querySelector('nav h3');
+var full = document.querySelector('.full-scr');
+var navImg = document.querySelector('nav img');
+var flag = 0;
+menu.addEventListener('click',function(){
+    if(flag == 0){
+        full.style.top = 0;
+        navImg.style.opacity = 0;
+        flag=1;
+    }
+    else 
+    {
+        full.style.top = '-100%';
+        navImg.style.opacity = 1;
+        flag = 0;
+    }
+})
 
-
-scroll();
+// scroll();
 page2();
 page4();
 swiper();
