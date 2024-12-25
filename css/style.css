@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: N;
     src: url(./NeueHaasDisplayMediu.ttf);
 }
@@ -7,7 +7,7 @@
     font-family: N;
     font-weight: 100;
     src: url(./NeueHaasDisplayLight.ttf);
-}
+} */
 
 * {
     margin: 0;
@@ -715,6 +715,8 @@ footer .footer-end {
     }
     #content .full-scr{
         display: block;
+        min-height: 100%;
+        width: 100vw;
     }
     #content main .full-scr .full-div1 {
         height: 50%;
@@ -724,7 +726,7 @@ footer .footer-end {
     .full-scr .full-div1 h1 {
         font-size: 13vw;
         position: relative;
-        left: -10%;
+        left: -15%;
         top: 30%;
         display:flex;
         justify-content: flex-end;
@@ -796,15 +798,16 @@ footer .footer-end {
 }
 
 /* page 2 bottom */
-
+.page2 {
+    overflow: hidden;
+}
 .page-bottom {
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 5vh 3vh;
-
 }
 
 .page-bottom .part1 {
@@ -848,8 +851,9 @@ footer .footer-end {
     height: 32vh;
     width: 32vh;
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 40%;
+    
 }
 .page3 {
     display: none;
@@ -867,43 +871,40 @@ footer .footer-end {
 
 .black-box{
     flex-direction: column;
-    height: 110vh;
+    height: 90vh;
     width: 100%;
-
 }
 .page4 .black-box .black-left {
-
     min-height: 50%;
-    width: 40%;
+    width: 50%;
     display: flex;  
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
+    font-size: 2vh;
+    left: 10vw;
 }
 .page4 .black-box .black-left .sec{
-
+    width: 100vw;
     top: 5%;
     left: -40%;
 }
 .heading {
-    font-size: 1.3rem;
-
+    font-size: 0.9rem;
+    width: 50%;
 }
 .heading h1 {
-
     margin-left: 9vw;
 }
 
 .para {
-
     margin-top: 2vw;
-    width: 100%;
 }
-
 .black-right {
-
-    height: 100%;
+    margin-top: -10vw;
+    min-height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 /* .black-right img {
     height: 100%;

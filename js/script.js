@@ -140,7 +140,7 @@ menu.addEventListener('click',function(){
     }
 })
 
-// scroll();
+scroll();
 page2();
 page4();
 swiper();
