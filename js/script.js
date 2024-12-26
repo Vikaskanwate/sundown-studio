@@ -131,13 +131,15 @@ menu.addEventListener('click',function(){
         full.style.top = 0;
         navImg.style.opacity = 0;
         flag=1;
+        full.style.transition = 'all 0.4s ease';
     }
     else 
     {
-        full.style.top = '-100%';
+        full.style.top = '-120%';
         navImg.style.opacity = 1;
         flag = 0;
     }
+    
 })
 
 scroll();
