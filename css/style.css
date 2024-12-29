@@ -1059,12 +1059,12 @@ footer .footer-end {
         padding: 0 0 0 4vh ;
         position: relative;
         left: -30%;
-        top: -30vh;
+        top: -35vh;
     }
     
     .footer-bar .item {
         font-size: 6vh;
-        line-height: 6vh;
+        line-height: 7.5vh;
     }
     
     .footer-bar .item2 {
